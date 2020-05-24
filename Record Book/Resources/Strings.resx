@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label_AllActivities" xml:space="preserve">
+    <value>All Activities</value>
+    <comment>May not be used.</comment>
+  </data>
+  <data name="Label_CalculatingRecords" xml:space="preserve">
+    <value>Calculating {0} Records</value>
+    <comment>Calculating 10k Records</comment>
+  </data>
+  <data name="Label_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Label_EvalCategoryLimit" xml:space="preserve">
+    <value>Eval version limited to {0} distance categories</value>
+    <comment>Eval version limited to 4 distance categories</comment>
+  </data>
+  <data name="Label_EvalHistoryLimit" xml:space="preserve">
+    <value>Eval version locked to evaluate previous {0} days.  See settings page to unlock.</value>
+    <comment>Eval version locked to evaluate previous 90 days.  See settings page to unlock.</comment>
+  </data>
+  <data name="Label_Extremes" xml:space="preserve">
+    <value>Extremes</value>
+  </data>
+  <data name="Label_ListSettings" xml:space="preserve">
+    <value>List Settings</value>
+  </data>
+  <data name="Label_Max" xml:space="preserve">
+    <value>Max</value>
+    <comment>Abbreviation for Maximum</comment>
+  </data>
+  <data name="Label_MaxAvgSpeed" xml:space="preserve">
+    <value>Max Avg. Speed</value>
+  </data>
+  <data name="Label_MaxDistance" xml:space="preserve">
+    <value>Max Distance</value>
+    <comment>Ok to abbreviate here</comment>
+  </data>
+  <data name="Label_MaxElevation" xml:space="preserve">
+    <value>Max Elevation</value>
+  </data>
+  <data name="Label_MaxPace" xml:space="preserve">
+    <value>Max Pace</value>
+  </data>
+  <data name="Label_MaxTemperature" xml:space="preserve">
+    <value>Max Temp.</value>
+    <comment>Ok to abbreviate here</comment>
+  </data>
+  <data name="Label_MaxTime" xml:space="preserve">
+    <value>Max Time</value>
+    <comment>Ok to abbreviate here</comment>
+  </data>
+  <data name="Label_MaxTRIMP" xml:space="preserve">
+    <value>Max TRIMP</value>
+  </data>
+  <data name="Label_MaxTSS" xml:space="preserve">
+    <value>Max TSS</value>
+  </data>
+  <data name="Label_Min" xml:space="preserve">
+    <value>Min</value>
+    <comment>Abbreviation for Minimum</comment>
+  </data>
+  <data name="Label_MinElevation" xml:space="preserve">
+    <value>Min Elevation</value>
+  </data>
+  <data name="Label_MinGrade" xml:space="preserve">
+    <value>Min Grade</value>
+  </data>
+  <data name="Label_MinTemperature" xml:space="preserve">
+    <value>Min Temp.</value>
+    <comment>Ok to abbreviate here</comment>
+  </data>
+  <data name="Label_New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Label_Now" xml:space="preserve">
+    <value>Now</value>
+  </data>
+  <data name="Label_NowThen" xml:space="preserve">
+    <value>Now/Then</value>
+  </data>
+  <data name="Label_Rank" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="Label_Record" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="Label_RecordBook" xml:space="preserve">
+    <value>Record Book</value>
+  </data>
+  <data name="Label_Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="Label_SelectedColumns" xml:space="preserve">
+    <value>Selected Columns</value>
+  </data>
+  <data name="Label_Then" xml:space="preserve">
+    <value>Then</value>
+  </data>
+  <data name="Label_TotalDistanceForOneDay" xml:space="preserve">
+    <value>Total Distance for One Day</value>
+  </data>
+  <data name="Label_TotalTimeForOneDay" xml:space="preserve">
+    <value>Total Time for One Day</value>
+  </data>
+  <data name="Label_Units" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="Label_WhereDoesItRank" xml:space="preserve">
+    <value>Where Does It Rank</value>
+  </data>
+</root>
